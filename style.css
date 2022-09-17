@@ -1,0 +1,80 @@
+.topNav {
+    background: yellowgreen;
+}
+
+.hero{
+    background: linear-gradient(90.39deg, #09F9CE 0.32%, rgba(255, 246, 20, 0.570249) 63.56%, rgba(237, 241, 17, 0) 100.34%, rgba(18, 217, 38, 0) 100.35%);
+    min-height: 60vh;
+
+
+}
+
+/* title */
+.hero img {
+    max-width: 300px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 4rem;
+
+
+}
+.title span {
+    border-bottom: 5px solid yellowgreen;
+    padding: 0.5rem 1rem;
+}
+
+/* icons */
+
+.icons {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.icons div {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 5rem;
+
+}
+
+i.fa-figma {
+    background: linear-gradient( purple, blue, red)
+}
+/* Project section  */
+
+.projects {
+    background: rgba(231, 213, 230, 260);
+}
+
+.contact {
+    background: rgb(221, 226, 86);
+}
+
+/* contact me */
+/* .contact i {
+    font-size: 3rem;
+} */
+
+#goup {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    font-size:3rem;
+    
+}
+.goup i{
+    box-shadow: -5px 5px 10px 10px grey;
+}
